@@ -38,13 +38,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .contenido {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
 .apartados {
@@ -74,7 +75,7 @@ body {
 }
 
 
-.indice {
+.indice{
     flex: auto;
     flex-wrap: wrap;
     margin: 10px;
