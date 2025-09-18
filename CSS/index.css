@@ -6,6 +6,7 @@ body {
     background-color: #e2d5c4;
     margin: 50px;
 }
+
 .titulo {
     display: flex;
     background-color:  #898ac4;
@@ -74,7 +75,8 @@ body {
 
 
 .indice {
-    flex-direction: column;
+    flex: auto;
+    flex-wrap: wrap;
     margin: 10px;
     border-radius: 20px;
     display: flex;
