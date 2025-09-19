@@ -54,12 +54,17 @@ body {
     gap: 10px;
 }
 
-.apartado {
-    height: 100px;
+.apartado{
+    height: 150px;
     width: 400px;
     background: #898ac4;
-    margin: 10px;
+    margin: 40px;
     border-radius: 10px;
+}
+
+.apartado p{
+    margin: 22px;
+    color: white;
 }
 
 .saber_mas {
@@ -100,4 +105,16 @@ body {
     border: 0px;
     text-decoration: none;
     color: black;
+}
+
+.subtitulo, .quees{
+       margin: 40px;
+}
+
+.p3{
+       margin: 10px;
+}
+
+.que{
+    margin-top: 50px;
 }
