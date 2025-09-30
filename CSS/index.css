@@ -118,3 +118,83 @@ body {
 .que{
     margin-top: 50px;
 }
+
+
+
+.apars{
+ display: block;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 10px;
+}
+
+.apar2{
+height: 150px;
+    width: 1100px;
+    background: #898ac4;
+    margin: 40px;
+    border-radius: 10px;
+}
+
+.apar2 p{
+    transform: translate(0px, 20px);
+    margin: 30px;
+    color: white;
+}
+
+.apar2, .pcajas{
+    color: white;
+    margin: 30px;
+}
+
+.apar2 h3{
+    text-align: center;
+}
+
+.imgs {
+    display: flex;
+    height: 350px;             
+    width: 500px;               
+    background: #898ac4;       
+    margin: 40px auto;          
+    border-radius: 15px;        
+    display: flex;              
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;           
+}
+
+.imgs img {
+    max-width: 100%;            
+    max-height: 100%;
+    object-fit: cover;          
+    border-radius: 15px; 
+}
+
+.aparts{
+ display: flex;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 10px;
+}
+
+.apar3{
+height: auto;
+    width: 200px;
+    background: #898ac4;
+    margin: 40px;
+    border-radius: 10px;
+}
+
+.apar3 p{
+    transform: translate(0px, 20px);
+    margin: 30px;
+    color: white;
+}
+
+.apar3, .pcajas{
+    color: white;
+    margin: 30px;
+}
+
+.apar3 h3{
+    text-align: center;
+}
