@@ -198,3 +198,144 @@ height: auto;
 .apar3 h3{
     text-align: center;
 }
+
+
+
+.caja2{
+    display: flex;
+    transform: translate(140px, 0px);
+}
+
+
+.apartas{
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 10px;
+}
+
+.apar4{
+     height: 300px;
+     padding: 24px;
+    width: 210px;
+    background: #898ac4;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+.apar4 p{
+    transform: translate(0px, 20px);
+    margin: 30px;
+    color: white;
+}
+
+.apar4, .pcajas{
+    color: white;
+    margin: 30px;
+}
+
+.apar4 h3{
+    text-align: center;
+}
+
+.imges {
+    display: flex;
+    height: 350px;             
+    width: 500px;               
+    background: #898ac4;       
+    margin: 30px ;          
+    border-radius: 15px;        
+    display: flex;              
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;           
+}
+
+.imges img {
+    max-width: 100%;            
+    max-height: 100%;
+    object-fit: cover;          
+    border-radius: 15px; 
+}
+
+
+
+.apartads{
+ display: block;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 2px;
+}
+
+.apar5{
+    padding: 5px;
+    height: 150px;
+    width: 810px;
+    background: #898ac4;
+    margin: 20px;
+    border-radius: 10px;
+    transform: translate(0px, -50px);
+}
+
+.apar5 p{
+    transform: translate(0px, 20px);
+    margin: 15px;
+    color: white;
+}
+
+.apar5, .pcajas{
+    color: white;
+    margin: 30px;
+}
+
+.apar5 h3{
+    text-align: center;
+}
+
+.aparts2{
+ display: flex;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 2px;
+}
+
+.apar6{
+height: auto;
+    width: 350px;
+    background: #898ac4;
+    margin: 0px;
+    border-radius: 10px;
+    transform: translate(0px, -30px);
+}
+
+.apar6 p{
+    transform: translate(0px, 20px);
+    margin: 30px;
+    color: white;
+}
+
+.apar6, .pcajas{
+    color: white;
+    margin: 30px;
+}
+
+.apar6 h3{
+    text-align: center;
+}
+
+
+.recuadros{
+display: flex; 
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px; 
+}
+
+.recua{
+height: 700px;             
+    width: 1100px;               
+    background: #FFF9AF;       
+    margin: 30px ;          
+    border-radius: 15px;        
+    display: flex;              
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;   
+}
