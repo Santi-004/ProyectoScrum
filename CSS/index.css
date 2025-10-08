@@ -5,6 +5,7 @@ html {
 body {
     background-color: #d9d1c3;
     margin: 50px;
+    width: auto;
 }
 
 .titulo {
@@ -229,9 +230,9 @@ height: auto;
 }
 
 .apar4{
-     height: 300px;
+     height: auto;
      padding: 24px;
-    width: 210px;
+    width: 260px;
     background: #4d288f;
     margin: 50px;
     border-radius: 10px;
@@ -241,6 +242,7 @@ height: auto;
     transform: translate(0px, 20px);
     margin: 30px;
     color: white;
+    
 }
 
 .apar4, .pcajas{
@@ -284,7 +286,7 @@ height: auto;
 
 .apar5{
     padding: 5px;
-    height: 150px;
+    height: auto;
     width: 810px;
     background: #898ac4;
     margin: 20px;
@@ -297,6 +299,7 @@ height: auto;
     transform: translate(0px, 20px);
     margin: 15px;
     color: aliceblue;
+    padding: 10px;
 }
 
 .apar5, .pcajas{
@@ -349,13 +352,91 @@ display: flex;
 }
 
 .recua{
-height: 700px;             
+height: auto;             
     width: 1100px;               
-    background: #FFF9AF;       
+    background: #4d288f;       
     margin: 30px ;          
     border-radius: 15px;        
     display: flex;              
-    justify-content: center;
     align-items: center;
     overflow: hidden;   
+}
+
+.cajones h3{
+    color: aliceblue;
+
+}
+
+.cajones{
+padding: 40px;
+    margin: 20px;
+}
+
+.boton-fijo {
+    position: fixed;
+    right: 40px;
+    background-color: #4d288f;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20%;
+    width: auto;
+    height: 50px;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transition: all 0.3s ease;
+    z-index: 9999;
+    margin: 10px;
+}
+
+/* El de abajo */
+.boton1 {
+    bottom: 40px;
+}
+
+/* El de arriba (un poco más arriba) */
+.boton2 {
+    bottom: 100px; /* 60px más alto que el otro */
+    background-color:#4d288f; /* color distinto opcional */
+}
+
+.boton-fijo:hover {
+    transform: scale(1.1);
+    opacity: 0.9;
+    color: black;
+    background-color:  #d9d1c3;
+}
+
+.bot {
+  margin: 15px;
+  display: inline-block;
+  padding: 15px 30px;
+  background: #4d288f;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;        
+  outline: none;      
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  transform: translate(0px, 25px);
+  color: aliceblue;
+}
+
+.bot a {
+  display: block;  
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.bot:hover {
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
 }
