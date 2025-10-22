@@ -489,3 +489,48 @@ height: 500px;
     align-items: center;
     overflow: hidden;   
 }
+
+
+.imgper{
+    height: 210px;
+    width: 210px;
+    background: #d9d1c3;
+    margin: 10px;
+    border-radius: 300px;
+    color: aliceblue;
+}
+
+.titu{
+    font-size: 60px;
+    transform: translate(-40px, 0px);
+}
+
+.recutor{
+height: 500px;             
+    width: 500px;               
+    background: #4d288f;       
+    margin: 30px;          
+    border-radius: 15px;        
+    display: flex;              
+    align-items: center;
+    overflow: hidden;  
+}
+
+.recutor2{
+height: 500px;             
+    width: 400px;               
+    background: #4d288f;       
+    margin: 30px ;          
+    border-radius: 15px;        
+    display: flex;              
+    align-items: center;
+    overflow: hidden;  
+}
+
+.recuator{
+display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px; 
+}
