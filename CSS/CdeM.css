@@ -35,10 +35,15 @@ h1 {
 
 .botones {
     margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 button {
-    margin: 5px;
+    margin: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     padding: 8px 12px;
     background: #4d288f;
     color: white;
@@ -46,6 +51,7 @@ button {
     border-radius: 5px;
     cursor: pointer;
     font-weight: bold;
+    min-width: 100px;
 }
 
 button:hover {
