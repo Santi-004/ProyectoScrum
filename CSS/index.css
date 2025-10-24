@@ -506,26 +506,28 @@ height: auto;
     transform: translate(-40px, 0px);
 }
 
-.recutor{
-height: 500px;             
+.recutor{    
+    height: 250px;         
     width: 500px;               
     background: #4d288f;       
-    margin: 30px;          
+    margin: 20px;          
     border-radius: 15px;        
     display: flex;              
     align-items: center;
     overflow: hidden;  
+    padding: 20px;
 }
 
 .recutor2{
-height: 500px;             
-    width: 400px;               
+    height: 250px;  
+    width: 500px;               
     background: #4d288f;       
     margin: 30px ;          
     border-radius: 15px;        
     display: flex;              
     align-items: center;
     overflow: hidden;  
+    padding: 20px;
 }
 
 .recuator{
