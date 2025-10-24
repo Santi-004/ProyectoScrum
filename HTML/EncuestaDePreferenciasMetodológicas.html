@@ -4,8 +4,97 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Encuesta De Preferencias Metodológicas</title>
+        <link rel="stylesheet" href="../CSS/Encuesta.css">
     </head>
     <body>
-        
+        <div class="cont">
+            <h1>Encuesta de Metodologías de Desarrollo</h1>
+            <form id="surveyForm">
+
+                <!-- Pregunta 1 -->
+                <div class="question">
+                <h2>1. ¿Qué tan claros y estables están los requisitos?</h2>
+                <label><input type="radio" name="q1" value="3">Muy claros y no cambiarán</label>
+                <label><input type="radio" name="q1" value="2">Parcialmente claros, podrían cambiar</label>
+                <label><input type="radio" name="q1" value="1">Poco claros, cambiarán constantemente</label>
+                </div>
+
+                <!-- Pregunta 2 -->
+                <div class="question">
+                <h2>2. Nivel de criticidad del software</h2>
+                <label><input type="radio" name="q2" value="3">Muy alto (errores graves costosos)</label>
+                <label><input type="radio" name="q2" value="2">Medio</label>
+                <label><input type="radio" name="q2" value="1">Bajo</label>
+                </div>
+
+                <!-- Pregunta 3 -->
+                <div class="question">
+                <h2>3. Frecuencia de entrega de versiones funcionales</h2>
+                <label><input type="radio" name="q3" value="3">Solo al final del proyecto</label>
+                <label><input type="radio" name="q3" value="2">Por fases o módulos</label>
+                <label><input type="radio" name="q3" value="1">Iterativamente, entregas frecuentes</label>
+                </div>
+
+                <!-- Pregunta 4 -->
+                <div class="question">
+                <h2>4. Participación del cliente/usuario</h2>
+                <label><input type="radio" name="q4" value="3">Baja, solo ve el producto final</label>
+                <label><input type="radio" name="q4" value="2">Media, revisiones por fases</label>
+                <label><input type="radio" name="q4" value="1">Alta, feedback continuo y colaboración diaria</label>
+                </div>
+
+                <!-- Pregunta 5 -->
+                <div class="question">
+                <h2>5. Tamaño del equipo de desarrollo</h2>
+                <label><input type="radio" name="q5" value="3">Grande (&gt;10 personas)</label>
+                <label><input type="radio" name="q5" value="2">Mediano (4-10 personas)</label>
+                <label><input type="radio" name="q5" value="1">Pequeño (1-3 personas)</label>
+                </div>
+
+                <!-- Pregunta 6 -->
+                <div class="question">
+                <h2>6. ¿Requiere pruebas exhaustivas en cada fase?</h2>
+                <label><input type="radio" name="q6" value="3">Sí, seguridad crítica</label>
+                <label><input type="radio" name="q6" value="2">Parcialmente</label>
+                <label><input type="radio" name="q6" value="1">No, pruebas simples son suficientes</label>
+                </div>
+
+                <!-- Pregunta 7 -->
+                <div class="question">
+                <h2>7. Flexibilidad del plan de desarrollo</h2>
+                <label><input type="radio" name="q7" value="3">Poco flexible, plan estricto</label>
+                <label><input type="radio" name="q7" value="2">Flexible por fases</label>
+                <label><input type="radio" name="q7" value="1">Muy flexible, adaptaciones constantes</label>
+                </div>
+
+                <!-- Pregunta 8 -->
+                <div class="question">
+                <h2>8. Ritmo de cambio esperado</h2>
+                <label><input type="radio" name="q8" value="3">Casi nulo</label>
+                <label><input type="radio" name="q8" value="2">Moderado</label>
+                <label><input type="radio" name="q8" value="1">Alto</label>
+                </div>
+
+                <!-- Pregunta 9 -->
+                <div class="question">
+                <h2>9. Necesidad de entregar funcionalidades parciales</h2>
+                <label><input type="radio" name="q9" value="3">No</label>
+                <label><input type="radio" name="q9" value="2">Sí, algunas</label>
+                <label><input type="radio" name="q9" value="1">Sí, frecuentemente</label>
+                </div>
+
+                <!-- Pregunta 10 -->
+                <div class="question">
+                <h2>10. ¿Deseas metodología visual y flexible para organizar tareas?</h2>
+                <label><input type="radio" name="q10" value="3">No, prefiero planificar todo</label>
+                <label><input type="radio" name="q10" value="2">Parcialmente</label>
+                <label><input type="radio" name="q10" value="1">Sí, flujo continuo y visual</label>
+                </div>
+
+                <button type="button" onclick="calculateMethodology()">Calcular metodología</button>
+            </form>
+        <div class="result" id="result"></div>
+        </div> 
+        <script src="../JS/encuesta.js"></script>
     </body>
 </html>
