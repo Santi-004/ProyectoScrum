@@ -353,14 +353,14 @@ display: flex;
 }
 
 .recua{
-height: auto;             
-    width: 1100px;               
-    background: #4d288f;       
-    margin: 30px ;          
-    border-radius: 15px;        
-    display: flex;              
-    align-items: center;
-    overflow: hidden;   
+    display: grid;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 20px;
+    background-color: #4d288f;
+    border-radius: 20px;   
+    margin-top: 50px;
 }
 
 .cajones h3{
@@ -392,30 +392,23 @@ padding: 40px;
     transition: all 0.3s ease;
     z-index: 9999;
     margin: 10px;
+    width: 120px;
 }
 
-/* El de abajo */
 .boton1 {
-    bottom: 40px;
-    transform: translate(-1150px, -440px);
-    background-color:#5d3d93;
-    width: 120px;
+    top: 40px;    /* distancia desde arriba */
+    left: 40px;   /* distancia desde la izquierda */
 }
 
-/* El de arriba (un poco más arriba) */
 .boton2 {
-    width: 120px;
-    bottom: 100px; /* 60px más alto que el otro */
-    background-color:#5d3d93; /* color distinto opcional */
-    transform: translate(-1150px, -440px);
+    top: 100px;   /* un poco más abajo */
+    left: 40px;
 }
 
 .boton-fijo:hover {
     transform: scale(1.1);
-    opacity: 0.9;
     color: black;
-    background-color:  #d9d1c3;
-    transform: translate(-1150px, -440px);
+    background-color:  #6a3cae;
 }
 
 .bot {
@@ -554,6 +547,7 @@ form {
     gap: 15px;
     margin: 50px;
     padding: 20px;
+    border-radius: 20px;
 }
 
 input, textarea {
@@ -606,12 +600,13 @@ textarea {
 }
 
 .recuatori{
-display: flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center; 
     align-items: center; 
     gap: 20px; 
     margin: 20px;
+    border-radius: 20px;
 }
 
 
@@ -619,13 +614,13 @@ display: flex;
 
 
 .contenedorsito {
-    margin: 20px;
     display: grid;
     justify-content: center;
     flex-wrap: wrap;
     text-align: center;
     gap: 20px;
     background-color: #4d288f;
+    border-radius: 20px;
 }
 
 /* Cada tarjeta */
@@ -685,6 +680,7 @@ display: flex;
     max-height: 200px; /* altura máxima del contenido visible */
     opacity: 1;
 }
+
 
 .oculto {
     max-height: 0;
@@ -753,6 +749,7 @@ h3{
 
 .ache, .ache2{
     font-size: 40px;
+    color: aliceblue;;
 }
 
 .ache2{
@@ -765,4 +762,59 @@ h3{
     border: 2px solid #ffffff;
     box-shadow: 0 4px 10px rgba(0,0,0,0.5);
     transform: translate(0px, -10px);
+}
+
+.glosario {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.glosario-card {
+    background-color: #4d288f;
+    color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 300px;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.glosario-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.glosario-card strong {
+    font-size: 1.1em;
+    color: #fff;
+    margin-bottom: 8px;
+    display: block;
+}
+
+@media (max-width: 768px) {
+  section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .glosario-card {
+    width: 90%;
+  }
+}
+
+.glo {
+    width: 100%;
+    height: 100px; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    background-color: #4d288f;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-radius: 20px;
 }
