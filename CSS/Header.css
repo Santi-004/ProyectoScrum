@@ -11,15 +11,17 @@ body {
   background-color: #e2d5c4;
 }
 
-img{
- transform: translate(-1190px, 0px);
+header img {
+  display: block;
+  margin-left: 0;
 }
+
 
 header {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  padding: 1rem;
+  justify-content: space-between;
+  padding: 1rem 2rem;
   background-color: #1e166b;
   position: fixed; 
   top: 0;
@@ -27,6 +29,7 @@ header {
   z-index: 1001;
   height: 120px;
 }
+
 
 .abrirmenu {
   background: none;

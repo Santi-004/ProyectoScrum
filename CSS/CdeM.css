@@ -1,0 +1,76 @@
+html {
+    scroll-behavior: smooth;
+    background-color: #d9d1c3;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    background-color: #144d80;
+    color: white; /* Texto claro sobre fondo oscuro */
+    padding-bottom: 25px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    min-height: 88vh;
+}
+
+h1 {
+    display: flex;
+    background-color:  #1e166b;
+    min-width: 90%;
+    height: 100px;
+    justify-content: center;
+    align-items: center; 
+    padding: 25px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: aliceblue;
+}
+
+h1 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.botones {
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 8px 12px;
+    background: #4d288f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #6a3cae; /* un tono más claro al pasar el mouse */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff; /* Mantener la tabla blanca para leer los datos */
+    color: #000000; /* Texto negro dentro de la tabla */
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 4px;
+    text-align: left;
+    vertical-align: top;
+}
+
+th {
+    background-color: #4d288f; /* Cabecera con mismo color de botones */
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #d9d9d9; /* filas pares más claras para contraste */
+}
